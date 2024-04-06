@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+    margin-top: 0px; /* Añadido para asegurar que no haya márgenes en el cuerpo */
+  }
+  
+  .logo img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+  }
+  
+  header {
+    position: fixed; /* Hace que el encabezado sea fijo */
+    width: 100%;
+    z-index: 1000; /* Asegura que el encabezado esté por encima del resto del contenido */
+  }
+  
+  header nav {
+    background-color: #211f1f;
+    text-align: right;
+    font-size: 1.5rem;
+    padding: 25px 0;
+  }
+  
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #efefef;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  nav a:hover {
+    background-color: #3d2a69;
+  }
